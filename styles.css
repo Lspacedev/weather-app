@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background: rgb(252, 220, 234);
+    background: radial-gradient(circle, rgba(252, 220, 234, 1) 0%, rgba(209, 229, 254, 1) 100%);
+
+    padding: 50px 0px 200px 0px;
+}
+
+.heading {
+    font: 9em sans-serif;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 55px 5px;
+}
+
+#input {
+    border: none;
+    padding: 12px 45px;
+
+    margin: 0px 5px 0px 15px;
+
+    box-shadow: 0px 8px 8px -6px black;
+}
+
+#input:focus-visible {
+    border: none;
+}
+
+#submit {
+    border: none;
+    padding: 10px 20px;
+
+    background-color: rgb(178, 165, 235);
+    color: white;
+
+    font: 1em sans-serif;
+
+    box-shadow: 0px 8px 8px -6px black;
+}
+
+#submit:hover {
+    background-color: black;
+}
+
+.label {
+    font: 1em sans-serif;
+}
+
+.infoDiv {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.infoDiv > div {
+    border: 1px solid rgb(188, 188, 188);
+
+    height: 250px;
+    width: 200px;
+
+    box-shadow: 0px 8px 8px -6px black;
+    
+}
+
+.nameDiv, .timeDiv, .latLonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: 1em sans-serif;
+    color: rgb(50, 28, 77);
+}
+
+footer {
+    font: 1em sans-serif;
+    text-align: end;
+    background: radial-gradient(circle, rgba(252, 220, 234, 1) 0%, rgba(209, 229, 254, 1) 100%);
+
+    
+}
